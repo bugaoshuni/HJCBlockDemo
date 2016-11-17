@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E45A1E61DDDA5350090852E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45A1E51DDDA5350090852E /* SecondViewController.m */; };
 		2EA363AB1DDC01C10089E18C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA363AA1DDC01C10089E18C /* main.m */; };
 		2EA363AE1DDC01C10089E18C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA363AD1DDC01C10089E18C /* AppDelegate.m */; };
 		2EA363B11DDC01C10089E18C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA363B01DDC01C10089E18C /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E45A1E41DDDA5350090852E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2E45A1E51DDDA5350090852E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2EA363A61DDC01C10089E18C /* HJCBlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJCBlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA363AA1DDC01C10089E18C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EA363AC1DDC01C10089E18C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				2EA363B71DDC01C10089E18C /* LaunchScreen.storyboard */,
 				2EA363BA1DDC01C10089E18C /* Info.plist */,
 				2EA363A91DDC01C10089E18C /* Supporting Files */,
+				2E45A1E41DDDA5350090852E /* SecondViewController.h */,
+				2E45A1E51DDDA5350090852E /* SecondViewController.m */,
 			);
 			path = HJCBlockDemo;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E45A1E61DDDA5350090852E /* SecondViewController.m in Sources */,
 				2EA363B11DDC01C10089E18C /* ViewController.m in Sources */,
 				2EA363AE1DDC01C10089E18C /* AppDelegate.m in Sources */,
 				2EA363AB1DDC01C10089E18C /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				2EA363D51DDC01C10089E18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA363D61DDC01C10089E18C /* Build configuration list for PBXNativeTarget "HJCBlockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				2EA363D81DDC01C10089E18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EA363D91DDC01C10089E18C /* Build configuration list for PBXNativeTarget "HJCBlockDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				2EA363DB1DDC01C10089E18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
